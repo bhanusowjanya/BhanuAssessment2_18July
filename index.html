@@ -1,0 +1,132 @@
+<html>
+<form>
+
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="sectionLeft">&nbsp;</section>
+            <section class="sectionCentre">
+                <h1 class="header">Plan Your Journey</h1>
+                <form action="home.html" class="form" id="form">
+                    <div class="bookingType" id="trip">
+
+                        <!--type of trip-->
+                        <span>Please Select One:</span>
+                        <input id="one-way" type="radio" name="answer" value="one-way" required>
+                        <label for="one-way">One-way</label>
+                        <input id="round-trip" type="radio" name="answer" value="round-trip" required>
+                        <label for="round-trip">Round-Trip</label>
+                        <br>
+                    </div>
+
+                    <!--Details of Places-->
+                    <div class="fromPlace">
+                        <label for="from">From:</label>
+                        <input id="fromPlace" type="text" name="fromPlace" required>
+
+
+                    </div>
+
+
+                    <div class="toPlace">
+                        <label for="to">To:</label>
+                        <input id="toPlace" type="text" name="toPlace" required>
+                        <br>
+                    </div>
+
+                    <!--Details about trip dates-->
+                    <div class="dates" id="dates1">
+                        <label for="departure">Departure Date:</label>
+                        <input id="departure" type="date" name="departure" required>
+
+                        <label for="returndate">Return Date:</label>
+                        <input id="returndate" type="date" name="returndate" required>
+                    </div>
+
+                    <!--Number of Passengers-->
+                    <div>
+                        <h2>Number of Passengers</h2>
+                        <br>
+                        <label for="adults">No. of Adults:</label>
+                        <input id="adults" type="number" name="adults" required>
+
+                        <label for="children">No. of Children:</label>
+                        <input id="children" type="number" name="children">
+                    </div>
+
+
+                    <!--Details of Passengers-->
+                    <div>
+                        <h3>Passenger 1 Details</h3>
+                        <label for="name1">Name:</label>&nbsp;
+                        <input id="name1" type="text" name="name1" required> <br>
+
+                        <span>Gender:</span>
+
+                        <input id="male" type="radio" name="opton1" value="male" required>
+                        <label for="male">Male</label>
+
+                        <input id="female" type="radio" name="opton1" value="female" required>
+                        <label for="female">Female</label> <br>
+
+                        <label for="age">Age:</label>
+                        <input id="age" type="number" name="age" required>
+                        <br>
+
+                    </div>
+
+                    <div>
+                        <h3>Passenger 2 Details</h3>
+                        <label for="name2">Name:</label>&nbsp;
+                        <input id="name2" type="text" name="name2" required> <br>
+
+                        <span>Gender:</span>
+
+                        <input id="male" type="radio" name="opton2" value="male" required>
+                        <label for="male">Male</label>
+
+                        <input id="female" type="radio" name="opton2" value="female" required>
+                        <label for="female">Female</label> <br>
+
+                        <label for="age">Age:</label>
+                        <input id="age" type="number" name="age" required>
+                        <br>
+
+                    </div>
+
+                    <div>
+
+                        <label for="email">Enter E-mail Id:</label>
+                        <input id="email" type="email" name="email" required>
+                        <br>
+                    </div>
+
+                    <div>
+                        <label for="mobile">Enter Mobile No.:</label>
+                        <input id="mobile" type="text" name="mobile" required>
+                        <br>
+                    </div>
+
+                    <!--Address-->
+                    <label for="address">Address:</label><br>
+                    <textarea id="message" name="message" required rows="8" cols="40">
+                        </textarea>
+
+
+                    <br>
+
+                    <!--Submit-->
+                    <input type="submit" value="Find Planes">
+
+                    <script src="index.js"></script>
+                </form>
+            </section>
+        </div>
+
+    </body>
+</form>
+
+</html>

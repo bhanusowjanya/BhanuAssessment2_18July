@@ -1,0 +1,46 @@
+    body {
+        background-image: url("Images/backgroundimage.jpg");
+        background-size: 100%;
+    }
+
+    .container {
+        display: inline;
+        float: left;
+        width: 100%;
+    }
+    .sectionLeft{
+        float: left;
+        width: 30%;
+    }
+    .sectionCentre{
+        float:left;
+        width: 60%;
+    }
+    .header {
+        align-content: center;
+    }
+
+    .content {
+        align-content: flex-start;
+    }
+
+
+    .bookingType {
+        padding: 10px;
+    }
+
+    .fromPlace {
+        padding: 10px;
+
+    }
+
+    .toPlace {
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .dates {
+        margin: 10px;
+        gap: 40px;
+    }
